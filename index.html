@@ -1,53 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Jacobo Rojas</h1>
+        <p>Especialista en Sistemas de Inteligencia Artificial</p>
     </header>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Title 1</h3>
-            <p>Description of project 1.</p>
+
+    <div class="container">
+        <div class="profile-pic">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Elon_Musk_Royal_Society_%28crop1%29.jpg "
+                alt="Foto de Juan Pérez">
         </div>
-        <div class="project">
-            <h3>Project Title 2</h3>
-            <p>Description of project 2.</p>
+        <div class="bio">
+            <h2>Sobre mí</h2>
+            <p>Ingeniero en Sistemas de Inteligencia Artificial apasionado por la tecnología, el aprendizaje automático
+                y el desarrollo de soluciones inteligentes. Con experiencia en proyectos de visión artificial,
+                procesamiento del lenguaje natural y sistemas autónomos.</p>
+
+            <h3>Habilidades</h3>
+            <div class="skills">
+                <span>Python</span>
+                <span>TensorFlow</span>
+                <span>PyTorch</span>
+                <span>OpenCV</span>
+                <span>Machine Learning</span>
+                <span>Deep Learning</span>
+                <span>NLP</span>
+                <span>Robótica</span>
+                <span>Desarrollo Full Stack</span>
+            </div>
+
+            <section id="proyectos">
+                <h2>Mis Proyectos en Inteligencia Artificial</h2>
+
+                <div class="container"
+                    style="flex-direction: row; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+
+                    <div style="flex: 1; min-width: 250px; text-align: center;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/TensorFlow_logo.svg "
+                            alt="TensorFlow" style="width: 100%; max-width: 200px; border-radius: 8px;">
+                        <p>Uso de TensorFlow para modelos de Deep Learning</p>
+                    </div>
+
+                    <div style="flex: 1; min-width: 250px; text-align: center;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/PyTorchLogo 开源库.svg" alt="PyTorch"
+                            style="width: 100%; max-width: 200px; border-radius: 8px;">
+                        <p>Entrenamiento de redes neuronales con PyTorch</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; text-align: center;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Artificial_neural_network.svg "
+                            alt="Red Neuronal" style="width: 100%; max-width: 200px; border-radius: 8px;">
+                        <p>Estructura de una red neuronal profunda</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; text-align: center;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/OpenCV_Logo_with_text.png "
+                            alt="OpenCV" style="width: 100%; max-width: 200px; border-radius: 8px;">
+                        <p>Procesamiento de imágenes con OpenCV</p>
+                    </div>
+            </section>
+            <h3>Formación Académica</h3>
+            <p><strong>Ingeniería en Sistemas de Inteligencia Artificial</strong><br>
+                Universidad Tecnológica del Norte | 2020 - 2024</p>
+
+            <h3>Contacto</h3>
+            <p>Email: jacobo.rojas@example.com<br>
+                LinkedIn: linkedin.com/in/jacoborojas-ai<br>
+                GitHub: github.com/jacoborojas-ai</p>
         </div>
-    </section>
-    
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-    </section>
-    
+    </div>
+
     <footer>
-        <p>&copy; 2023 My Portfolio</p>
+        &copy; 2025 Jacobo Rojas - Portfolio de Inteligencia Artificial
     </footer>
 
-    <script src="scripts/main.js"></script>
 </body>
+
 </html>
